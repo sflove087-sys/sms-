@@ -27,6 +27,7 @@ import androidx.compose.foundation.text.KeyboardOptions
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowBack
 import androidx.compose.material.icons.automirrored.filled.Send
+import androidx.compose.material.icons.automirrored.filled.Chat
 import androidx.compose.material.icons.filled.*
 import androidx.compose.material.icons.outlined.Delete
 import androidx.compose.material.icons.outlined.Info
@@ -459,7 +460,7 @@ fun InboxDashboardScreen(
                     .padding(20.dp)
                     .testTag("fab_new_message")
             ) {
-                Icon(Icons.Default.Chat, "Start New Conversation")
+                Icon(Icons.AutoMirrored.Filled.Chat, "Start New Conversation")
             }
         }
     }
