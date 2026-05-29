@@ -1,0 +1,6 @@
+{
+  "name": "SMS Messenger",
+  "description": "A beautiful, fully-functional SMS messaging client featuring conversation threads, local filtering categories, transaction view, and real-time message broadcasting.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
